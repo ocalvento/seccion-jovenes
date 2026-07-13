@@ -1,0 +1,9 @@
+{
+  "name": "abogados-de-bancos-seccion-joven",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/validate-static.js",
+    "lint": "node scripts/validate-static.js"
+  }
+}
