@@ -24,19 +24,22 @@ for (const file of htmlFiles) {
   const html = fs.readFileSync(path.join(root, file), "utf8");
   const titleCount = (html.match(/<title>/g) || []).length;
   const h1Count = (html.match(/<h1[\s>]/g) || []).length;
+  const isRedirectPage = file === "index.html" && html.includes("url=seccion-joven/");
 
   if (titleCount !== 1) {
     failures.push(`${file}: expected exactly one <title>, found ${titleCount}`);
   }
 
-  if (h1Count !== 1) {
+  if (!isRedirectPage && h1Count !== 1) {
     failures.push(`${file}: expected exactly one <h1>, found ${h1Count}`);
   }
 
-  for (const assetPath of ["assets/styles.css", "assets/main.js"]) {
-    const relativePrefix = file.includes("/") ? "../" : "";
-    if (!html.includes(`${relativePrefix}${assetPath}`)) {
-      failures.push(`${file}: missing reference to ${relativePrefix}${assetPath}`);
+  if (!isRedirectPage) {
+    for (const assetPath of ["assets/styles.css", "assets/main.js"]) {
+      const relativePrefix = file.includes("/") ? "../" : "";
+      if (!html.includes(`${relativePrefix}${assetPath}`)) {
+        failures.push(`${file}: missing reference to ${relativePrefix}${assetPath}`);
+      }
     }
   }
 }
