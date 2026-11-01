@@ -1,0 +1,36 @@
+# Credenciales y configuración local
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
+
+# Archivos del sistema y dependencias
+.DS_Store
+node_modules/
+__pycache__/
+*.pyc
+
+# Material interno del torneo; se conserva sólo en la copia local
+/Propuesta Torneo de Padel - Comite AB.docx
+/Propuesta Torneo de Padel - Comite AB.pdf
+/Resumen Ejecutivo - Torneo Relampago Padel Comite AB.docx
+/Resumen Ejecutivo - Torneo Relampago Padel Comite AB.pdf
+/Torneo Paddle - One Pager Comite AB.docx
+/Torneo Paddle - One Pager Comite AB.png
+/crear_onepager_torneo_paddle.py
+/crear_propuesta_torneo_padel.py
+/crear_resumen_ejecutivo_torneo_padel.py
+/fixture-modelo-padel-comite.png
+/header-resumen-ejecutivo-padel.png
+/logos-miembros-comite-padel.png
+/render-onepager-paddle*/
+/render-propuesta-padel*/
+/render-resumen-ejecutivo-padel*/
+
+# Capturas con sesión de administrador o identidad de cuenta
+/screenshots/wp-*.png
+/screenshots/github-root-preview.png

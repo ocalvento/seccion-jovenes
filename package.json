@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "node scripts/validate-static.js",
+    "build": "node scripts/render-home.js && node scripts/validate-static.js",
+    "dev": "python3 -m http.server 4173 --bind 127.0.0.1",
+    "test": "node --test tests/calendar.test.js",
     "lint": "node scripts/validate-static.js"
   }
 }

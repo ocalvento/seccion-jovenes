@@ -1,0 +1,232 @@
+[
+  {
+    "fields": {
+      "1": {
+        "id": "1",
+        "type": "text",
+        "label": "Apellido",
+        "description": "",
+        "required": "1",
+        "size": "large",
+        "placeholder": "",
+        "default_value": "",
+        "css": ""
+      },
+      "2": {
+        "id": "2",
+        "type": "text",
+        "label": "Nombre",
+        "description": "",
+        "required": "1",
+        "size": "large",
+        "placeholder": "",
+        "default_value": "",
+        "css": ""
+      },
+      "3": {
+        "id": "3",
+        "type": "text",
+        "label": "DNI",
+        "description": "",
+        "required": "1",
+        "size": "large",
+        "placeholder": "",
+        "default_value": "",
+        "css": ""
+      },
+      "4": {
+        "id": "4",
+        "type": "text",
+        "label": "Fecha de nacimiento",
+        "description": "",
+        "required": "1",
+        "size": "large",
+        "placeholder": "DD/MM/AAAA",
+        "default_value": "",
+        "css": "",
+        "input_mask": "99/99/9999"
+      },
+      "5": {
+        "id": "5",
+        "type": "text",
+        "label": "Nacionalidad",
+        "description": "",
+        "required": "1",
+        "size": "large",
+        "placeholder": "",
+        "default_value": "",
+        "css": ""
+      },
+      "6": {
+        "id": "6",
+        "type": "text",
+        "label": "Domicilio",
+        "description": "",
+        "required": "1",
+        "size": "large",
+        "placeholder": "",
+        "default_value": "",
+        "css": ""
+      },
+      "7": {
+        "id": "7",
+        "type": "text",
+        "label": "Banco/Estudio/Entidad",
+        "description": "",
+        "required": "1",
+        "size": "large",
+        "placeholder": "",
+        "default_value": "",
+        "css": ""
+      },
+      "8": {
+        "id": "8",
+        "type": "text",
+        "label": "Cargo",
+        "description": "",
+        "required": "1",
+        "size": "large",
+        "placeholder": "",
+        "default_value": "",
+        "css": ""
+      },
+      "9": {
+        "id": "9",
+        "type": "text",
+        "label": "Teléfono",
+        "description": "",
+        "required": "1",
+        "size": "large",
+        "placeholder": "",
+        "default_value": "",
+        "css": ""
+      },
+      "10": {
+        "id": "10",
+        "type": "email",
+        "label": "Correo electrónico",
+        "description": "",
+        "required": "1",
+        "size": "large",
+        "placeholder": "",
+        "default_value": "",
+        "css": "",
+        "confirmation_placeholder": "",
+        "filter_type": "",
+        "allowlist": "",
+        "denylist": ""
+      },
+      "11": {
+        "id": "11",
+        "type": "text",
+        "label": "Título - Fecha de expedición",
+        "description": "",
+        "required": "1",
+        "size": "large",
+        "placeholder": "",
+        "default_value": "",
+        "css": ""
+      },
+      "12": {
+        "id": "12",
+        "type": "text",
+        "label": "Universidad",
+        "description": "",
+        "required": "1",
+        "size": "large",
+        "placeholder": "",
+        "default_value": "",
+        "css": ""
+      },
+      "13": {
+        "id": "13",
+        "type": "textarea",
+        "label": "Bancos a los que esta vinculado",
+        "description": "",
+        "required": "1",
+        "size": "large",
+        "placeholder": "",
+        "default_value": "",
+        "css": ""
+      },
+      "14": {
+        "id": "14",
+        "type": "textarea",
+        "label": "Socios Presentantes (ingresar 2 nombres)",
+        "description": "",
+        "required": "1",
+        "size": "large",
+        "placeholder": "",
+        "default_value": "",
+        "css": ""
+      },
+      "15": {
+        "id": "15",
+        "type": "select",
+        "label": "Forma de pago",
+        "description": "De acuerdo a lo dispuesto por la Comisión Directiva, a partir del 1° de Abril de 2026 el valor de la cuota social asciende a $15.100.- por mes para pagos por débito automático y $21.100.- para  transferencias.\n\nLos menores de 35 años forman parte de la Sección Jóvenes del Comité y acceden a la bonificación del 100% de la cuota social durante los primeros doce meses, y el 50% durante los segundos doce meses de membresía.",
+        "required": "1",
+        "size": "large",
+        "placeholder": "Seleccioná una opción",
+        "default_value": "",
+        "css": "",
+        "choices": {
+          "1": {
+            "label": "Débito automático con tarjeta de crédito",
+            "value": "",
+            "image": "",
+            "icon": ""
+          },
+          "2": {
+            "label": "Transferencia",
+            "value": "",
+            "image": "",
+            "icon": ""
+          },
+          "3": {
+            "label": "Beneficio Sección Jóvenes",
+            "value": "",
+            "image": "",
+            "icon": ""
+          }
+        },
+        "style": "classic"
+      }
+    },
+    "field_id": 16,
+    "settings": {
+      "form_title": "Solicitud de ingreso al Comité",
+      "form_desc": "Completá los 15 campos de la solicitud. El envío no implica la incorporación automática al Comité.",
+      "submit_text": "Enviar solicitud",
+      "submit_text_processing": "Enviando solicitud…",
+      "antispam": "1",
+      "antispam_v3": "1",
+      "form_class": "committee-association-native",
+      "submit_class": "button",
+      "ajax_submit": "1",
+      "notification_enable": "1",
+      "notifications": {
+        "1": {
+          "email": "administracion@abogadosdebancos.org.ar",
+          "subject": "Nueva solicitud de ingreso al Comité",
+          "sender_name": "Comité de Abogados de Bancos",
+          "sender_address": "{admin_email}",
+          "replyto": "{field_id=\"10\"}",
+          "message": "Solicitud enviada desde la web del Comité. Requiere revisión administrativa.\n\n{all_fields}"
+        }
+      },
+      "confirmations": {
+        "1": {
+          "type": "message",
+          "message": "Gracias. Tu solicitud fue enviada para su revisión. El envío no implica la incorporación automática al Comité.",
+          "message_scroll": "1",
+          "page": "",
+          "redirect": ""
+        }
+      }
+    },
+    "meta": {
+      "template": "blank"
+    }
+  }
+]

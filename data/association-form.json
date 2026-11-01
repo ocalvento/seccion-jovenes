@@ -1,0 +1,132 @@
+{
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSe-U8q_bw86nSsXVdPIKIBKOXvVobAWyiLfilmjBLQMcqmMYw/viewform",
+  "title": "Solicitud de ingreso",
+  "source": "Formulario oficial compartido por el usuario",
+  "capturedAt": "2026-10-21",
+  "questions": [
+    {
+      "label": "Apellido",
+      "required": true,
+      "type": 0
+    },
+    {
+      "label": "Nombre",
+      "required": true,
+      "type": 0
+    },
+    {
+      "label": "DNI",
+      "required": true,
+      "type": 0
+    },
+    {
+      "label": "Fecha de nacimiento",
+      "required": true,
+      "type": 9
+    },
+    {
+      "label": "Nacionalidad",
+      "required": true,
+      "type": 0
+    },
+    {
+      "label": "Domicilio",
+      "required": true,
+      "type": 0
+    },
+    {
+      "label": "Banco/Estudio/Entidad",
+      "required": true,
+      "type": 0
+    },
+    {
+      "label": "Cargo",
+      "required": true,
+      "type": 0
+    },
+    {
+      "label": "Teléfono",
+      "required": true,
+      "type": 0
+    },
+    {
+      "label": "Correo electrónico",
+      "required": true,
+      "type": 0
+    },
+    {
+      "label": "Título - Fecha de expedición",
+      "required": true,
+      "type": 0
+    },
+    {
+      "label": "Universidad",
+      "required": true,
+      "type": 0
+    },
+    {
+      "label": "Bancos a los que esta vinculado",
+      "required": true,
+      "type": 1
+    },
+    {
+      "label": "Socios Presentantes (ingresar 2 nombres)",
+      "required": true,
+      "type": 1
+    },
+    {
+      "label": "Forma de pago",
+      "required": true,
+      "type": 2
+    }
+  ],
+  "groups": [
+    {
+      "title": "Datos personales y de contacto",
+      "fields": [
+        "Apellido",
+        "Nombre",
+        "DNI",
+        "Fecha de nacimiento",
+        "Nacionalidad",
+        "Domicilio",
+        "Teléfono",
+        "Correo electrónico"
+      ]
+    },
+    {
+      "title": "Actividad profesional",
+      "fields": [
+        "Banco/Estudio/Entidad",
+        "Cargo",
+        "Bancos a los que esta vinculado"
+      ]
+    },
+    {
+      "title": "Formación y presentación",
+      "fields": [
+        "Título - Fecha de expedición",
+        "Universidad",
+        "Socios Presentantes (ingresar 2 nombres)"
+      ]
+    },
+    {
+      "title": "Cuota social",
+      "fields": [
+        "Forma de pago"
+      ]
+    }
+  ],
+  "paymentOptions": [
+    "Débito automático con tarjeta de crédito",
+    "Transferencia",
+    "Beneficio Sección Jóvenes"
+  ],
+  "feeNotice": "De acuerdo a lo dispuesto por la Comisión Directiva, a partir del 1° de Abril de 2026 el valor de la cuota social asciende a $15.100.- por mes para pagos por débito automático y $21.100.- para  transferencias.\n\nLos menores de 35 años forman parte de la Sección Jóvenes del Comité y acceden a la bonificación del 100% de la cuota social durante los primeros doce meses, y el 50% durante los segundos doce meses de membresía.",
+  "recommendationsNotAddedToOfficialForm": [
+    "Matrícula profesional y jurisdicción, opcionales",
+    "Áreas de interés, opcionales",
+    "Aviso institucional de privacidad y consentimiento de contacto",
+    "Confirmación de recepción con próximos pasos"
+  ]
+}

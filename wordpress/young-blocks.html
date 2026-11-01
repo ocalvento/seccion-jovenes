@@ -1,0 +1,1034 @@
+<!-- wp:html -->
+<style>
+.committee-home{
+  --adb-blue: #4696db;
+  --adb-blue-soft: #8bbedc;
+  --adb-ink: #4c4c4c;
+  --adb-dark: #333333;
+  --adb-muted: #4B4F58;
+  --adb-line: #d9e5eb;
+  --adb-panel: #F3F6F6;
+  --adb-white: #ffffff;
+  --adb-max: 1180px;
+  --adb-header-height: 82px;
+}
+.committee-home *{
+  box-sizing: border-box;
+}
+.committee-home{
+  scroll-behavior: smooth;
+}
+.committee-home{
+  margin: 0;
+  background: var(--adb-white);
+  color: var(--adb-ink);
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+}
+.committee-home a{
+  color: var(--adb-ink);
+  text-decoration: none;
+}
+.committee-home a:hover,.committee-home a:focus{
+  color: var(--adb-dark);
+}
+.committee-home a:focus-visible,.committee-home button:focus-visible{
+  outline: 2px dotted currentColor;
+  outline-offset: 4px;
+}
+.committee-home img{
+  display: block;
+  max-width: 100%;
+}
+.committee-home .skip-link{
+  left: 1rem;
+  padding: 0.75rem 1rem;
+  position: fixed;
+  top: -10rem;
+  z-index: 1000;
+  background: var(--adb-white);
+  color: var(--adb-ink);
+}
+.committee-home .skip-link:focus{
+  top: 1rem;
+}
+.committee-home .site-header{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.98);
+  border-bottom: 1px solid rgba(217, 229, 235, 0.75);
+}
+.committee-home .header-inner{
+  width: min(calc(100% - 48px), var(--adb-max));
+  min-height: var(--adb-header-height);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 28px;
+}
+.committee-home .site-logo{
+  width: 250px;
+  height: auto;
+}
+.committee-home .desktop-nav ul,.committee-home .mobile-nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.committee-home .desktop-nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.committee-home .menu-link{
+  color: var(--adb-ink);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.committee-home .menu-link[aria-current="page"]{
+  color: var(--adb-dark);
+  text-decoration: underline;
+  text-decoration-color: var(--adb-blue);
+  text-underline-offset: 8px;
+}
+.committee-home .header-actions{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.committee-home .social-link{
+  display: inline-grid;
+  width: 24px;
+  height: 24px;
+  place-items: center;
+  color: var(--adb-ink);
+}
+.committee-home .social-link svg{
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+.committee-home .button,.committee-home .outline-button{
+  display: inline-flex;
+  min-height: 38px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--adb-ink);
+  background: transparent;
+  color: var(--adb-ink);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1;
+  padding: 12px 20px;
+  text-transform: uppercase;
+}
+.committee-home .button:hover,.committee-home .button:focus,.committee-home .outline-button:hover,.committee-home .outline-button:focus{
+  border-color: var(--adb-blue);
+  color: var(--adb-blue);
+}
+.committee-home .menu-toggle{
+  display: none;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid var(--adb-line);
+  background: var(--adb-white);
+  color: var(--adb-ink);
+}
+.committee-home .menu-toggle svg{
+  width: 24px;
+  height: 24px;
+  margin: auto;
+}
+.committee-home .mobile-nav{
+  display: none;
+  border-top: 1px solid var(--adb-line);
+  background: var(--adb-white);
+}
+.committee-home .mobile-nav[data-open]{
+  display: block;
+}
+.committee-home .mobile-nav[hidden]{ display: none; }
+.committee-home .mobile-nav ul{
+  width: min(100% - 40px, var(--adb-max));
+  margin: 0 auto;
+  padding: 12px 0 20px;
+}
+.committee-home .mobile-nav li + li{
+  border-top: 1px solid var(--adb-line);
+}
+.committee-home .mobile-nav a{
+  display: block;
+  padding: 13px 0;
+}
+.committee-home .site-main{
+  padding-top: 0;
+}
+.committee-home .section{
+  padding: 76px 0;
+}
+.committee-home .section--soft{
+  background: var(--adb-panel);
+}
+.committee-home .container{
+  width: min(calc(100% - 48px), var(--adb-max));
+  margin: 0 auto;
+}
+.committee-home .narrow{
+  max-width: 880px;
+}
+.committee-home .hero{
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: 520px;
+  display: grid;
+  align-items: center;
+  background: var(--adb-dark);
+  color: var(--adb-white);
+}
+.committee-home .hero::before{
+  content: "";
+  position: absolute;
+  inset: -18px;
+  z-index: -2;
+  background: url("https://abogadosdebancos.org.ar/titan/wp-content/uploads/2026/10/seccion-joven-hero.jpg") center 54% / cover;
+  filter: blur(4px);
+  opacity: 0.72;
+  transform: scale(1.04);
+}
+.committee-home .hero::after{
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(90deg, rgba(51, 51, 51, 0.85), rgba(51, 51, 51, 0.62)),
+    linear-gradient(180deg, rgba(51, 51, 51, 0.05), rgba(51, 51, 51, 0.32));
+}
+.committee-home .hero__content{
+  width: min(calc(100% - 48px), var(--adb-max));
+  margin: 0 auto;
+  padding: 72px 0;
+}
+.committee-home .eyebrow{
+  margin: 0 0 18px;
+  color: var(--adb-muted);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+.committee-home h1,.committee-home h2,.committee-home h3{
+  margin: 0;
+  color: inherit;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.committee-home h1{
+  max-width: 780px;
+  font-size: 3rem;
+}
+.committee-home h2{
+  font-size: 2.5rem;
+}
+.committee-home h3{
+  font-size: 1.25rem;
+}
+.committee-home .lead{
+  max-width: 800px;
+  margin: 24px 0 0;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.2rem;
+}
+.committee-home .section-heading{
+  display: grid;
+  gap: 14px;
+  margin-bottom: 34px;
+}
+.committee-home .section-heading p{
+  max-width: 820px;
+  margin: 0;
+  color: var(--adb-muted);
+}
+.committee-home .content-panel{
+  border-left: 4px solid var(--adb-blue);
+  padding: 8px 0 8px 28px;
+}
+.committee-home .content-panel p{
+  margin: 0;
+  color: var(--adb-muted);
+}
+.committee-home .content-panel p + p{
+  margin-top: 18px;
+}
+.committee-home .grid{
+  display: grid;
+  gap: 22px;
+}
+.committee-home .grid--two{
+  grid-template-columns: 1fr 1fr;
+}
+.committee-home .grid--three{
+  grid-template-columns: repeat(3, 1fr);
+}
+.committee-home .grid--four{
+  grid-template-columns: repeat(4, 1fr);
+}
+.committee-home .objective-list{
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.committee-home .objective-list li,.committee-home .feature-card,.committee-home .coordinator-card{
+  border: 1px solid var(--adb-line);
+  background: var(--adb-white);
+}
+.committee-home .objective-list li{
+  position: relative;
+  padding: 18px 20px 18px 48px;
+  color: var(--adb-muted);
+}
+.committee-home .objective-list li::before{
+  content: "";
+  position: absolute;
+  top: 25px;
+  left: 22px;
+  width: 8px;
+  height: 8px;
+  background: var(--adb-blue);
+}
+.committee-home .coordinator-card{
+  display: block;
+  padding: 24px;
+  color: var(--adb-ink);
+  transition: border-color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
+}
+.committee-home .coordinator-card:hover,.committee-home .coordinator-card:focus{
+  border-color: var(--adb-blue-soft);
+  color: var(--adb-ink);
+  box-shadow: 0 14px 34px rgba(41, 51, 51, 0.08);
+  transform: translateY(-3px);
+}
+.committee-home .coordinator-card span{
+  display: block;
+  margin-top: 8px;
+  color: var(--adb-muted);
+  font-size: 0.84rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.committee-home .feature-card{
+  min-height: 160px;
+  padding: 24px;
+  transition: border-color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
+}
+.committee-home .feature-card svg{
+  width: 30px;
+  height: 30px;
+  margin-bottom: 18px;
+  fill: var(--adb-blue);
+}
+.committee-home .feature-card p{
+  margin: 10px 0 0;
+  color: var(--adb-muted);
+  font-size: 0.95rem;
+}
+.committee-home .feature-card:hover{
+  border-color: var(--adb-blue-soft);
+  box-shadow: 0 14px 34px rgba(41, 51, 51, 0.08);
+  transform: translateY(-3px);
+}
+.committee-home .timeline{
+  position: relative;
+  display: grid;
+  gap: 0;
+  margin: 0;
+  padding: 0 0 0 28px;
+  list-style: none;
+}
+.committee-home .timeline::before{
+  content: "";
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 5px;
+  width: 2px;
+  background: var(--adb-line);
+}
+.committee-home .timeline-item{
+  position: relative;
+  padding: 0 0 30px 26px;
+}
+.committee-home .timeline-item:last-child{
+  padding-bottom: 0;
+}
+.committee-home .timeline-item::before{
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: -27px;
+  width: 12px;
+  height: 12px;
+  border: 3px solid var(--adb-white);
+  background: var(--adb-blue);
+  box-shadow: 0 0 0 1px var(--adb-blue);
+}
+.committee-home .timeline-item--next::before{
+  background: var(--adb-white);
+  box-shadow: 0 0 0 2px var(--adb-blue);
+}
+.committee-home .timeline-status{
+  display: inline-flex;
+  margin: 0 0 10px;
+  border: 1px solid var(--adb-line);
+  padding: 5px 8px;
+  color: var(--adb-muted);
+  background: var(--adb-white);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.committee-home .timeline-item--next .timeline-status{
+  border-color: var(--adb-blue-soft);
+  color: var(--adb-ink);
+}
+.committee-home .timeline-content{
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 220px;
+  gap: 24px;
+  align-items: start;
+  max-width: 980px;
+}
+.committee-home .timeline-flyer{
+  width: 220px;
+  aspect-ratio: 4 / 5;
+  border: 1px solid var(--adb-line);
+  object-fit: contain;
+  object-position: center;
+  background: var(--adb-white);
+}
+.committee-home .timeline-flyer--wide{
+  aspect-ratio: 16 / 11;
+}
+.committee-home .timeline-item time{
+  display: block;
+  margin-bottom: 8px;
+  color: var(--adb-ink);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.committee-home .timeline-item p{
+  max-width: 760px;
+  margin: 9px 0 0;
+  color: var(--adb-muted);
+}
+.committee-home .reveal-card{
+  animation: fade-up 640ms ease both;
+  animation-timeline: view();
+  animation-range: entry 0% cover 28%;
+}
+@keyframes fade-up{
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.committee-home .cta{
+  background: var(--adb-ink);
+  color: var(--adb-white);
+}
+.committee-home .cta__inner{
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 32px;
+}
+.committee-home .cta p{
+  max-width: 760px;
+  margin: 16px 0 0;
+  color: rgba(255, 255, 255, 0.82);
+}
+.committee-home .cta .button{
+  border-color: var(--adb-white);
+  color: var(--adb-white);
+}
+.committee-home .cta .button:hover,.committee-home .cta .button:focus{
+  border-color: var(--adb-blue-soft);
+  color: var(--adb-blue-soft);
+}
+.committee-home .home-intro{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 44px;
+  align-items: start;
+}
+.committee-home .home-card{
+  border: 1px solid var(--adb-line);
+  padding: 30px;
+}
+.committee-home .home-card p{
+  color: var(--adb-muted);
+}
+.committee-home .site-footer{
+  border-top: 1px solid var(--adb-line);
+  padding: 28px 0;
+  color: var(--adb-muted);
+  font-size: 0.9rem;
+}
+@media (max-width: 980px){.committee-home{
+    --adb-header-height: 78px;
+  }
+.committee-home .header-inner{
+    width: min(calc(100% - 32px), var(--adb-max));
+    grid-template-columns: auto 1fr auto;
+  }
+.committee-home .desktop-nav,.committee-home .header-actions{
+    display: none;
+  }
+.committee-home .menu-toggle{
+    display: grid;
+    justify-self: end;
+  }
+.committee-home .grid--four,.committee-home .grid--three{
+    grid-template-columns: repeat(2, 1fr);
+  }
+.committee-home .cta__inner,.committee-home .home-intro{
+    grid-template-columns: 1fr;
+  }
+.committee-home .cta__inner{
+    align-items: start;
+  }
+}
+@media (max-width: 640px){.committee-home{
+    --adb-header-height: 96px;
+  }
+.committee-home{
+    font-size: 15px;
+  }
+.committee-home .header-inner,.committee-home .container,.committee-home .hero__content,.committee-home .mobile-nav ul{
+    width: min(calc(100% - 28px), var(--adb-max));
+  }
+.committee-home h1{
+    font-size: 2rem;
+  }
+.committee-home h2{
+    font-size: 1.625rem;
+  }
+.committee-home h3{
+    font-size: 1.0625rem;
+  }
+.committee-home .lead{
+    font-size: 1.0625rem;
+  }
+.committee-home .header-inner{
+    min-height: var(--adb-header-height);
+  }
+.committee-home .site-logo{
+    width: 220px;
+  }
+.committee-home .section{
+    padding: 54px 0;
+  }
+.committee-home .hero{
+    min-height: 470px;
+  }
+.committee-home .grid--two,.committee-home .grid--three,.committee-home .grid--four{
+    grid-template-columns: 1fr;
+  }
+.committee-home .timeline{
+    padding-left: 22px;
+  }
+.committee-home .timeline-item{
+    padding-left: 20px;
+  }
+.committee-home .timeline-content{
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+.committee-home .timeline-flyer{
+    width: min(100%, 260px);
+  }
+.committee-home .content-panel{
+    padding-left: 20px;
+  }
+.committee-home .button,.committee-home .outline-button{
+    width: 100%;
+    padding-inline: 16px;
+  }
+}
+@media (prefers-reduced-motion: reduce){.committee-home *,.committee-home *::before,.committee-home *::after{
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+.committee-home{ scroll-padding-top: 108px; }
+.committee-home button,.committee-home input,.committee-home select,.committee-home textarea{ font: inherit; }
+.committee-home button,.committee-home summary{ cursor: pointer; }
+.committee-home input:focus-visible,.committee-home select:focus-visible,.committee-home textarea:focus-visible,.committee-home summary:focus-visible{
+  outline: 2px solid var(--adb-dark); outline-offset: 4px;
+}
+.committee-home .header-inner{ min-height: 100px; gap: 24px; }
+.committee-home .desktop-nav ul{ gap: 22px; }
+.committee-home .menu-link{ color: #2f3034; font-size: 13px; text-transform: uppercase; letter-spacing: 0; }
+.committee-home .outline-button{ border-color: #a3a3a3; border-radius: 2px; gap: 12px; }
+.committee-home .button{ border-radius: 2px; gap: 12px; }
+.committee-home .button:hover,.committee-home .outline-button:hover{ color: var(--adb-dark); border-color: var(--adb-dark); background: var(--adb-panel); }
+.committee-home .hero .eyebrow{ color: var(--adb-white); }
+.committee-home .mobile-nav{ max-height: calc(100dvh - 100px); overflow-y: auto; }
+.committee-home .mobile-nav a{ min-height: 44px; }
+.committee-home .section{ padding-block: 72px; }
+.committee-home .section-heading .eyebrow{ margin: 0; color: var(--adb-muted); }
+.committee-home h2{ font-size: clamp(28px, 3vw, 40px); letter-spacing: -.035em; }
+.committee-home h3{ line-height: 1.4; }
+.committee-home .section-heading{ gap: 12px; }
+.committee-home .eyebrow{ font-size: 11px; letter-spacing: .13em; }
+.committee-home .institutional-hero{
+  background: url('https://abogadosdebancos.org.ar/titan/wp-content/uploads/2023/10/AB_slider_bg.jpg') center / cover;
+  color: var(--adb-white); position: relative; isolation: isolate;
+}
+.committee-home .institutional-hero::before{ content: ''; position: absolute; inset: 0; z-index: -1; background: rgba(0, 0, 0, .23); }
+.committee-home .institutional-hero__inner{ display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 72px; align-items: center; padding-block: 64px; }
+.committee-home .institutional-hero h1{ font-size: clamp(32px, 3.5vw, 48px); letter-spacing: -.04em; max-width: 730px; }
+.committee-home .institutional-hero .eyebrow{ color: var(--adb-white); }
+.committee-home .institutional-hero .lead{ font-size: 17px; line-height: 1.8; margin-block: 22px 30px; max-width: 580px; color: var(--adb-white); }
+.committee-home .action-row{ display: flex; align-items: center; flex-wrap: wrap; gap: 24px; }
+.committee-home .button--white{ background: var(--adb-white); border-color: var(--adb-white); color: var(--adb-dark); min-height: 48px; }
+.committee-home .hero-text-link{ color: var(--adb-white); font-size: 13px; text-decoration: underline; text-underline-offset: 6px; }
+.committee-home .hero-text-link:hover,.committee-home .hero-agenda a:hover{ color: var(--adb-white); }
+.committee-home .hero-agenda{ border: 1px solid rgba(255,255,255,.6); background: rgba(0,0,0,.12); padding: 30px; border-radius: 3px; }
+.committee-home .hero-agenda h2{ font-size: 27px; line-height: 1.3; letter-spacing: -.02em; }
+.committee-home .hero-agenda p:not(.eyebrow){ font-size: 13px; line-height: 1.8; margin-block: 18px; }
+.committee-home .agenda-note{ font-size: 11px; color: var(--adb-white); }
+.committee-home .hero-agenda a{ display:flex; justify-content:space-between; color: var(--adb-white); border-top: 1px solid rgba(255,255,255,.5); padding-top: 16px; margin-top: 16px; font-size: 13px; font-weight: 600; }
+.committee-home .institutional-hero--event .institutional-hero__inner{ grid-template-columns:minmax(0,1.45fr) minmax(0,1fr); padding-block:42px; }
+.committee-home .featured-event-facts{ margin:26px 0 30px; display:grid; gap:16px; }
+.committee-home .featured-event-facts div{ border-left:2px solid var(--adb-blue-soft); padding-left:16px; }
+.committee-home .featured-event-facts dt{ font-size:11px; text-transform:uppercase; letter-spacing:.12em; margin-bottom:3px; }
+.committee-home .featured-event-facts dd{ font-size:17px; font-weight:600; margin:0; }
+.committee-home .featured-event-flyer{ display:block; justify-self:end; max-width:355px; width:100%; color:var(--adb-white); }
+.committee-home .featured-event-flyer img{ width:100%; height:auto; border:1px solid rgba(255,255,255,.4); border-radius:3px; }
+.committee-home .featured-event-flyer>span{ display:flex; justify-content:space-between; margin-top:12px; font-size:12px; }
+.committee-home .featured-event-flyer:hover{ color:var(--adb-white); }
+@media(max-width:700px){.committee-home .institutional-hero--event .institutional-hero__inner{ grid-template-columns:1fr; }
+.committee-home .featured-event-flyer{ justify-self:center; max-width:355px; }
+}
+.committee-home .quick-links{ display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); border-bottom: 1px solid var(--adb-line); padding-block: 28px; }
+.committee-home .quick-links>a{ display:flex; gap: 16px; align-items: center; padding-inline: 26px; border-right:1px solid var(--adb-line); }
+.committee-home .quick-links>a:first-child{ padding-left:0; }
+.committee-home .quick-links>a:last-child{ border:0; padding-right:0; }
+.committee-home .quick-links>a>span:last-child{ margin-left:auto; }
+.committee-home .quick-links strong{ display:block; font-size:13px; font-weight:600; }
+.committee-home .quick-links small{ display:block; font-size:12px; margin-top:4px; }
+.committee-home .quick-icon{ color:var(--adb-muted); font-size:14px; border-bottom:2px solid var(--adb-blue); padding-bottom:3px; }
+.committee-home .heading-row{ display:flex; justify-content:space-between; align-items:end; gap:32px; margin-bottom:30px; }
+.committee-home .heading-row .section-heading{ margin:0; }
+.committee-home .text-link{ color:var(--adb-ink); font-size:13px; font-weight:600; display:inline-flex; align-items:center; gap:14px; border-bottom:1px solid var(--adb-blue-soft); padding-bottom:5px; width:fit-content; }
+.committee-home .text-link:hover{ border-color:var(--adb-dark); }
+.committee-home .heading-row>.text-link{ flex-shrink:0; }
+.committee-home .calendar-layout{ display:grid; grid-template-columns:minmax(0,1.3fr) minmax(0,1fr); border:1px solid var(--adb-line); border-radius:4px; margin-bottom:42px; overflow:hidden; scroll-margin-top:110px; }
+.committee-home .calendar-panel{ padding:28px; }
+.committee-home .calendar-toolbar{ display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:24px; }
+.committee-home .calendar-toolbar h3{ font-size:17px; text-transform:capitalize; }
+.committee-home .calendar-controls{ display:flex; gap:5px; }
+.committee-home .calendar-controls button{ border:1px solid var(--adb-line); background:var(--adb-white); color:var(--adb-ink); min-height:36px; min-width:36px; font-size:12px; border-radius:2px; }
+.committee-home .calendar-grid{ display:grid; grid-template-columns:repeat(7,minmax(0,1fr)); gap:5px; }
+.committee-home .calendar-grid>span,.committee-home .calendar-grid>button{ min-height:34px; padding:5px; text-align:center; font-size:13px; display:grid; place-items:center; }
+.committee-home .calendar-grid .weekday{ color:var(--adb-muted); font-size:11px; font-weight:600; }
+.committee-home .calendar-grid .today{ outline:1px solid var(--adb-ink); outline-offset:-3px; }
+.committee-home .calendar-grid button{ color:var(--adb-dark); background:var(--adb-blue-soft); border:0; border-radius:3px; font-weight:700; }
+.committee-home .calendar-grid button[aria-pressed=true]{ background:var(--adb-dark); color:var(--adb-white); }
+.committee-home .calendar-key{ font-size:11px; display:flex; align-items:center; gap:7px; margin:18px 0 0; }
+.committee-home .calendar-key>span{ display:inline-block; width:7px; height:7px; background:var(--adb-blue); flex-shrink:0; }
+.committee-home .calendar-jump{ display:flex; align-items:center; gap:12px; flex-wrap:wrap; font-size:12px; margin-top:18px; }
+.committee-home .calendar-jump input{ padding:6px 10px; border:1px solid #a3a3a3; border-radius:2px; font-size:16px; min-width:0; max-width:100%; background:var(--adb-white); color:var(--adb-ink); }
+.committee-home .calendar-detail{ padding:32px; background:var(--adb-panel); display:flex; flex-direction:column; align-items:start; justify-content:center; }
+.committee-home .calendar-detail h3{ font-size:23px; line-height:1.4; }
+.committee-home .calendar-detail p:not(.eyebrow){ font-size:14px; line-height:1.8; }
+.committee-home .calendar-detail ul{ padding-left:20px; }
+.committee-home .calendar-detail li{ margin-bottom:16px; font-size:14px; }
+.committee-home .calendar-detail li a{ text-decoration:underline; text-underline-offset:3px; }
+.committee-home .calendar-detail time{ display:block; font-size:12px; }
+.committee-home .archive-heading{ display:flex; justify-content:space-between; align-items:center; gap:20px; margin-bottom:22px; }
+.committee-home .archive-heading h3{ font-size:19px; font-weight:600; }
+.committee-home .archive-heading p{ font-size:12px; margin:0; }
+.committee-home .publication-card{ border:1px solid var(--adb-line); border-radius:3px; background:var(--adb-white); overflow:hidden; display:flex; flex-direction:column; }
+.committee-home .publication-image{ background:var(--adb-panel); display:block; overflow:hidden; }
+.committee-home .publication-image img{ width:100%; height:auto; aspect-ratio:16/10; object-fit:contain; }
+.committee-home .publication-body{ padding:24px; display:flex; flex-direction:column; flex:1; }
+.committee-home .publication-meta{ display:flex; flex-wrap:wrap; gap:8px 12px; align-items:center; font-size:11px; margin:0 0 15px; }
+.committee-home .publication-meta>span{ border:1px solid var(--adb-line); padding:2px 6px; text-transform:uppercase; letter-spacing:.08em; }
+.committee-home .publication-body h3{ font-size:18px; letter-spacing:-.02em; margin-bottom:24px; }
+.committee-home .publication-body .text-link{ margin-top:auto; font-size:12px; }
+.committee-home .event-card .publication-image img{ aspect-ratio:1280 / 1140; }
+.committee-home .event-location{ font-size:13px; line-height:1.8; margin:0 0 18px; }
+.committee-home .event-organizer{ font-size:12px; margin:0 0 18px; }
+.committee-home .archive-notice{ font-size:12px; margin:0 0 20px; }
+.committee-home .news-card{ display:grid; grid-template-columns:160px 1fr; }
+.committee-home .news-card .publication-image{ align-self:stretch; display:flex; align-items:center; }
+.committee-home .news-card .publication-image img{ aspect-ratio:auto; }
+.committee-home .news-card h3{ font-size:17px; }
+.committee-home .about-layout{ display:grid; grid-template-columns:minmax(0,1.6fr) minmax(0,1fr); align-items:center; gap:72px; }
+.committee-home .about-intro{ font-size:21px; line-height:1.65; margin-block:22px; max-width:610px; }
+.committee-home .content-panel{ border-left-width:3px; }
+.committee-home .institutional-nav{ display:grid; }
+.committee-home .institutional-nav a{ display:flex; gap:20px; justify-content:space-between; border-bottom:1px solid var(--adb-line); padding-block:22px; font-size:14px; font-weight:600; }
+.committee-home .authority-card{ border-top:2px solid var(--adb-blue-soft); padding-block:18px; }
+.committee-home .authority-card h3{ font-size:12px; text-transform:uppercase; letter-spacing:.08em; font-weight:600; margin-bottom:10px; }
+.committee-home .authority-card>a{ font-size:16px; }
+.committee-home .authority-card a span{ color:var(--adb-muted); font-size:13px; }
+.committee-home .institutional-details{ margin-top:28px; border-top:1px solid var(--adb-line); border-bottom:1px solid var(--adb-line); }
+.committee-home .institutional-details summary{ padding:20px 4px; font-size:14px; font-weight:600; }
+.committee-home .institutional-details summary span{ float:right; }
+.committee-home .board-groups{ padding:10px 0 28px; display:grid; grid-template-columns:1fr 1fr; gap:28px; }
+.committee-home .board-groups h3{ font-size:15px; margin-bottom:12px; }
+.committee-home .board-groups ul{ list-style:none; padding:0; margin:0; display:grid; gap:8px; }
+.committee-home .board-groups a{ font-size:13px; }
+.committee-home .history-layout{ display:grid; grid-template-columns:1fr 1.4fr; gap:72px; }
+.committee-home .history-layout p{ font-size:15px; max-width:350px; }
+.committee-home .document-list{ list-style:none; padding:0; margin:0; }
+.committee-home .document-list a{ padding-block:18px; border-bottom:1px solid var(--adb-line); display:grid; grid-template-columns:auto 1fr auto; gap:16px; align-items:center; font-size:13px; }
+.committee-home .document-type{ padding:5px; border:1px solid var(--adb-line); font-size:10px; font-weight:600; }
+.committee-home .feature-card{ border-radius:3px; display:flex; flex-direction:column; transform:none; box-shadow:none; }
+.committee-home .feature-card h3{ font-size:19px; }
+.committee-home .feature-card p{ font-size:14px; margin-bottom:22px; }
+.committee-home .feature-card .text-link{ margin-top:auto; }
+.committee-home .young-feature{ border-left:3px solid var(--adb-blue); display:flex; align-items:center; justify-content:space-between; gap:40px; padding-left:30px; }
+.committee-home .young-feature .eyebrow{ margin-bottom:12px; }
+.committee-home .young-feature p:not(.eyebrow){ max-width:700px; font-size:16px; margin-bottom:0; }
+.committee-home .young-feature>a{ flex-shrink:0; }
+.committee-home .sponsor-grid{ display:grid; grid-template-columns:repeat(7,minmax(0,1fr)); gap:12px; padding:0; margin:0; list-style:none; }
+.committee-home .sponsor-grid li{ background:var(--adb-white); min-width:0; border:1px solid var(--adb-line); display:grid; place-items:center; padding:12px; }
+.committee-home .sponsor-grid img{ width:100%; height:80px; object-fit:contain; }
+.committee-home .association-section{ background:var(--adb-white); }
+.committee-home .association-layout{ display:grid; grid-template-columns:1fr 1.5fr; gap:72px; }
+.committee-home .association-layout>div>p:not(.eyebrow){ font-size:16px; margin-block:24px; }
+.committee-home .association-layout .form-note{ font-size:13px; line-height:1.8; }
+.committee-home .association-form{ padding:30px; background:var(--adb-panel); border:1px solid var(--adb-line); border-top:3px solid var(--adb-blue); }
+.committee-home .form-grid{ display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+.committee-home .form-grid label{ font-size:12px; font-weight:600; }
+.committee-home .form-grid label>span{ display:inline; }
+.committee-home .form-grid input,.committee-home .form-grid select,.committee-home .form-grid textarea{ display:block; width:100%; margin-top:8px; padding:11px; background:var(--adb-white); color:var(--adb-ink); border:1px solid #a3a3a3; border-radius:2px; font-size:16px; min-width:0; }
+.committee-home .form-grid textarea{ resize:vertical; }
+.committee-home .form-full{ grid-column:1/-1; }
+.committee-home .consent{ display:flex; gap:12px; align-items:start; font-size:12px; margin-top:20px; }
+.committee-home .consent input{ flex-shrink:0; width:18px; height:18px; margin-top:3px; accent-color:var(--adb-dark); }
+.committee-home .association-form .form-note{ font-size:11px; }
+.committee-home .association-form .button{ background:var(--adb-dark); color:var(--adb-white); border-color:var(--adb-dark); min-height:46px; font-size:11px; letter-spacing:.06em; }
+.committee-home .association-requirements{ border-left:3px solid var(--adb-blue-soft); padding-left:20px; margin-block:28px; }
+.committee-home .association-requirements h3{ font-size:17px; }
+.committee-home .association-requirements p{ font-size:14px; line-height:1.8; }
+.committee-home .association-description{ font-size:14px; line-height:1.8; }
+.committee-home .association-field-groups{ display:grid; grid-template-columns:1fr 1fr; gap:18px 24px; margin-block:26px; }
+.committee-home .association-field-groups h4{ margin:0 0 7px; font-size:13px; line-height:1.5; font-weight:600; }
+.committee-home .association-field-groups p{ margin:0; font-size:12px; line-height:1.9; }
+.committee-home .association-form>.button{ line-height:1.6; }
+.committee-home .association-form>.form-note .text-link{ display:inline; font-size:inherit; }
+.committee-home .native-association-group{ border:0; border-top:1px solid var(--adb-line); padding:22px 0 0; margin:26px 0 0; min-width:0; }
+.committee-home .native-association-group legend{ font-size:14px; font-weight:600; padding-right:12px; }
+.committee-home .native-association-group>.form-note{ white-space:pre-line; font-size:12px; line-height:1.9; }
+.committee-home .association-form .button:disabled{ opacity:.65; cursor:not-allowed; }
+.committee-home .footer-top{ display:grid; grid-template-columns:1fr 1fr 1fr; align-items:center; gap:32px; padding-block:18px 35px; }
+.committee-home .footer-top img{ width:250px; height:auto; }
+.committee-home .footer-top nav{ display:grid; grid-template-columns:1fr 1fr; gap:12px; font-size:12px; }
+.committee-home .footer-contact{ display:flex; flex-direction:column; align-items:end; gap:12px; font-size:12px; }
+.committee-home .footer-bottom{ border-top:1px solid var(--adb-line); padding-top:24px; display:flex; justify-content:space-between; gap:20px; font-size:11px; }
+.committee-home .footer-bottom p{ margin:0; }
+@media(max-width:1100px){.committee-home .desktop-nav ul{ gap:15px; }
+.committee-home .menu-link{ font-size:11px; }
+.committee-home .institutional-hero__inner{ gap:38px; }
+.committee-home .news-card{ display:flex; }
+.committee-home .news-card .publication-image img{ height:160px; object-fit:contain; }
+.committee-home .sponsor-grid{ grid-template-columns:repeat(5,minmax(0,1fr)); }
+.committee-home .association-layout,.committee-home .history-layout,.committee-home .about-layout{ gap:38px; }
+}
+@media(max-width:980px){.committee-home .header-inner{ grid-template-columns:auto 1fr auto; min-height:80px; gap:16px; }
+.committee-home .header-actions{ display:flex; justify-self:end; }
+.committee-home .desktop-nav{ display:none; }
+.committee-home .header-actions .outline-button{ font-size:11px; min-height:44px; }
+.committee-home .institutional-hero__inner{ grid-template-columns:1.3fr 1fr; padding-block:48px; }
+.committee-home .hero-agenda{ padding:24px; }
+.committee-home .hero-agenda h2{ font-size:24px; }
+.committee-home .quick-links>a{ padding-inline:15px; gap:10px; }
+.committee-home .quick-links strong{ font-size:12px; }
+.committee-home .quick-links small{ font-size:11px; }
+.committee-home .calendar-layout{ grid-template-columns:1.2fr 1fr; }
+.committee-home .calendar-panel{ padding:20px; }
+.committee-home .calendar-detail{ padding:24px; }
+.committee-home .authority-grid{ grid-template-columns:repeat(3,minmax(0,1fr)); }
+.committee-home .event-grid{ grid-template-columns:repeat(3,minmax(0,1fr)); }
+.committee-home .publication-body{ padding:18px; }
+.committee-home .publication-body h3{ font-size:16px; }
+.committee-home .young-feature{ flex-direction:column; align-items:start; gap:24px; }
+.committee-home .association-layout{ grid-template-columns:1fr; }
+.committee-home .association-layout>div{ max-width:720px; }
+.committee-home .footer-top{ grid-template-columns:1fr 1fr; }
+.committee-home .footer-contact{ align-items:start; }
+.committee-home .mobile-nav{ max-height:calc(100dvh - 80px); }
+}
+@media(max-width:700px){.committee-home .institutional-hero__inner{ grid-template-columns:1fr; gap:30px; }
+.committee-home .hero-agenda{ max-width:none; }
+.committee-home .institutional-hero .lead{ font-size:16px; }
+.committee-home .hero-agenda h2 br{ display:none; }
+.committee-home .quick-links{ grid-template-columns:1fr; padding-block:0; }
+.committee-home .quick-links>a,.committee-home .quick-links>a:first-child,.committee-home .quick-links>a:last-child{ padding:19px 0; border-right:0; border-bottom:1px solid var(--adb-line); }
+.committee-home .quick-links>a:last-child{ border-bottom:0; }
+.committee-home .quick-links strong{ font-size:14px; }
+.committee-home .quick-links small{ font-size:12px; }
+.committee-home .heading-row{ flex-direction:column; align-items:start; gap:22px; }
+.committee-home .calendar-layout,.committee-home .about-layout,.committee-home .history-layout{ grid-template-columns:1fr; }
+.committee-home .event-grid{ grid-template-columns:1fr; }
+.committee-home .publication-image img{ aspect-ratio:16/9; }
+.committee-home .section{ padding-block:48px; }
+.committee-home .authority-grid{ grid-template-columns:1fr 1fr; }
+.committee-home .sponsor-grid{ grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; }
+.committee-home .sponsor-grid img{ height:65px; }
+.committee-home .sponsor-grid li{ padding:8px; }
+.committee-home .archive-heading{ align-items:start; flex-direction:column; gap:8px; }
+.committee-home .association-form{ padding:22px; }
+.committee-home .form-grid{ grid-template-columns:1fr; }
+.committee-home .footer-top,.committee-home .footer-bottom{ display:flex; flex-direction:column; align-items:start; }
+.committee-home .board-groups{ grid-template-columns:1fr; }
+.committee-home .news-grid{ grid-template-columns:1fr; }
+}
+@media(max-width:640px){.committee-home .header-inner{ min-height:80px; }
+.committee-home .site-logo{ width:200px; }
+.committee-home .header-actions .outline-button{ width:auto; padding:10px 12px; letter-spacing:.06em; }
+.committee-home .header-actions .outline-button span{ display:none; }
+.committee-home .menu-toggle{ width:42px; height:44px; }
+.committee-home .header-inner{ gap:10px; }
+.committee-home .action-row{ gap:20px; }
+.committee-home .button,.committee-home .outline-button{ width:auto; }
+.committee-home .calendar-toolbar{ flex-wrap:wrap; }
+.committee-home .calendar-controls button{ min-width:44px; min-height:44px; }
+.committee-home .calendar-grid>button{ min-height:44px; }
+.committee-home .calendar-grid{ gap:3px; }
+.committee-home .calendar-key{ line-height:1.8; }
+.committee-home .calendar-panel{ padding:18px; }
+.committee-home .young-feature{ width:calc(100% - 40px); padding-left:20px; }
+.committee-home .authority-card>a{ font-size:14px; }
+.committee-home .association-form .button{ width:100%; line-height:1.5; padding:12px; }
+}
+@media(max-width:380px){.committee-home .site-logo{ width:165px; }
+.committee-home .header-inner{ gap:7px; }
+.committee-home .authority-grid{ grid-template-columns:1fr; }
+.committee-home .calendar-panel{ padding:14px; }
+}
+@media(min-width:981px){.committee-home .mobile-nav[data-open]{ display:none; }
+}
+@media(max-width:700px){.committee-home .association-field-groups{ grid-template-columns:1fr; }
+}
+
+body.page-id-2489 #content > .ast-container,
+body:has(.committee-home) #content > .ast-container { max-width:none; padding:0; display:block; }
+body:has(.committee-home) #primary { margin:0; padding:0; width:100%; }
+body:has(.committee-home) .entry-header { display:none; }
+body:has(.committee-home) .site-main > article { padding:0; margin:0; }
+body:has(.committee-home) .entry-content > .committee-home { max-width:none; margin:0; padding:0; }
+.committee-home { width:100%; font-family:Montserrat,Arial,sans-serif; }
+.committee-home h1,.committee-home h2,.committee-home h3 { font-family:inherit; font-weight:600; margin-top:0; color:inherit; }
+.committee-home p { margin-top:0; }
+.committee-home .institutional-hero h1 { color:white; line-height:1.16; }
+.committee-home .container { float:none; }
+.committee-home a { text-decoration:none; }
+.committee-home .grid { margin:0; }
+.committee-home .sponsor-grid { margin:0; }
+.committee-home section { scroll-margin-top:95px; }
+.committee-home .wpforms-container { margin:20px 0 0; }
+.committee-home .wpforms-container .wpforms-field { padding:12px 0; }
+.committee-home .wpforms-container input.wpforms-field-large,
+.committee-home .wpforms-container textarea.wpforms-field-large,
+.committee-home .wpforms-container select.wpforms-field-large { max-width:100%; width:100%; border-radius:2px; border:1px solid #d9e5eb; box-shadow:none; }
+.committee-home .wpforms-container .wpforms-field-label { font-size:14px; font-weight:600; color:#4c4c4c; }
+.committee-home .wpforms-container .wpforms-field-description { line-height:1.7; font-size:13px; margin-top:16px; white-space:pre-line; }
+.committee-home .wpforms-container button[type=submit] { background:#4696db; color:white; border-radius:2px; box-shadow:none; }
+
+</style>
+<!-- /wp:html -->
+<!-- wp:group {"className":"committee-home committee-young","layout":{"type":"default"}} -->
+<div class="wp-block-group committee-home committee-young">
+<!-- wp:html -->
+<section class="hero">
+      <div class="hero__content">
+        <p class="eyebrow">Comité de Abogados de Bancos</p>
+        <h1>Sección Jóvenes</h1>
+        <p class="lead">Un espacio de encuentro, formación e integración para jóvenes abogados vinculados al derecho bancario, financiero y empresario.</p>
+      </div>
+    </section>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+    <section class="section" aria-labelledby="proposito">
+      <div class="container narrow">
+        <div class="section-heading">
+          <h2 id="proposito">Propósito</h2>
+        </div>
+        <div class="content-panel">
+          <p>La Sección Jóvenes busca generar un ámbito de participación activa, formación continua e intercambio profesional para jóvenes abogados vinculados al derecho bancario, financiero, regulatorio, fintech, compliance y nuevas tecnologías aplicadas al sistema financiero.</p>
+        </div>
+      </div>
+    </section>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+    <section class="section section--soft" aria-labelledby="objetivos">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="objetivos">Objetivos</h2>
+        </div>
+        <ul class="objective-list grid grid--two">
+          <li>Promover la capacitación y actualización jurídica en temas bancarios y financieros.</li>
+          <li>Generar espacios de encuentro entre jóvenes profesionales del sector.</li>
+          <li>Impulsar charlas, conferencias, workshops y actividades académicas.</li>
+          <li>Facilitar el vínculo entre abogados jóvenes, referentes de la industria y especialistas.</li>
+          <li>Fortalecer la participación de nuevas generaciones dentro de la institución.</li>
+          <li>Crear una red profesional activa vinculada al derecho bancario y financiero.</li>
+        </ul>
+      </div>
+    </section>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+    <section class="section" aria-labelledby="coordinadores">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="coordinadores">Coordinadores</h2>
+          <p>Equipo de coordinación de la Sección Jóvenes.</p>
+        </div>
+        <!-- Editar este bloque para actualizar nombres o agregar coordinadores. -->
+        <div class="grid grid--three">
+          <a class="coordinator-card" href="https://www.linkedin.com/in/octaviocalvento/" target="_blank" rel="noopener noreferrer" aria-label="Ver perfil de LinkedIn de Octavio Calvento">
+            <h3>Octavio Calvento</h3>
+            <span>Coordinador</span>
+          </a>
+          <a class="coordinator-card" href="https://ar.linkedin.com/in/julietabassi" target="_blank" rel="noopener noreferrer" aria-label="Ver perfil de LinkedIn de Julieta Bassi">
+            <h3>Julieta Bassi</h3>
+            <span>Coordinadora</span>
+          </a>
+          <a class="coordinator-card" href="https://ar.linkedin.com/in/carolina-mercero" target="_blank" rel="noopener noreferrer" aria-label="Ver perfil de LinkedIn de Carolina Mercero">
+            <h3>Carolina Mercero</h3>
+            <span>Coordinadora</span>
+          </a>
+        </div>
+      </div>
+    </section>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+    <section class="section section--soft" aria-labelledby="agenda-actividades">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="agenda-actividades">Agenda de actividades</h2>
+          <p>Una línea temporal con actividades realizadas y próximos encuentros de la Sección Jóvenes.</p>
+        </div>
+        <ol class="timeline">
+          <!-- Editar estos hitos para actualizar eventos realizados o próximos actividades. -->
+          <li class="timeline-item timeline-item--past reveal-card">
+            <div class="timeline-content">
+              <div>
+                <span class="timeline-status">Realizado</span>
+                <time datetime="2026-05">Mayo 2026</time>
+                <h3>Kick Off Sección Jóvenes</h3>
+                <p>Lanzamiento anual del espacio joven, con presentación de iniciativas, beneficios académicos, networking y cocktail.</p>
+              </div>
+              <img class="timeline-flyer" src="https://abogadosdebancos.org.ar/titan/wp-content/uploads/2026/10/kickoff-seccion-joven.png" alt="Flyer del Kick Off de la Sección Jóvenes">
+            </div>
+          </li>
+          <li class="timeline-item timeline-item--past reveal-card">
+            <div class="timeline-content">
+              <div>
+                <span class="timeline-status">Realizado</span>
+                <time datetime="2026-07-08">8 de julio 2026</time>
+                <h3>Mercado de capitales</h3>
+                <p>Clase abierta junto a UCA sobre financiamiento corporativo y régimen cambiario en la actualidad.</p>
+              </div>
+              <img class="timeline-flyer" src="https://abogadosdebancos.org.ar/titan/wp-content/uploads/2026/10/charla-uca-mercado-capitales.jpeg" alt="Flyer de la charla UCA sobre mercado de capitales">
+            </div>
+          </li>
+          <li class="timeline-item timeline-item--past reveal-card">
+            <div class="timeline-content">
+              <div>
+                <span class="timeline-status">Fecha pasada</span>
+                <time datetime="2026-07-16">16 de julio 2026</time>
+                <h3>Liderazgo joven en el mercado financiero</h3>
+                <p>Encuentro híbrido sobre liderazgo, desarrollo profesional y experiencia en el sector financiero.</p>
+              </div>
+              <img class="timeline-flyer timeline-flyer--wide" src="https://abogadosdebancos.org.ar/titan/wp-content/uploads/2026/10/liderazgo-joven.jpeg" alt="Flyer de liderazgo joven en el mercado financiero">
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+    <section class="section" aria-labelledby="actividades">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="actividades">Beneficios y actividades</h2>
+          <p>Propuestas concretas para formarse, vincularse y participar de la vida institucional sin sobrecargar la agenda profesional.</p>
+        </div>
+        <div class="grid grid--three">
+          <article class="feature-card reveal-card">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 4h16v10H7.17L4 17.17V4Zm2 2v6.34L6.34 12H18V6H6Zm1 12h10v2H7v-2Zm0-3h13v2H7v-2Z"/></svg>
+            <h3>Charlas con especialistas</h3>
+            <p>Encuentros con referentes del derecho bancario, financiero y empresario.</p>
+          </article>
+          <article class="feature-card reveal-card">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M16 11c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3ZM8 11c1.66 0 3-1.34 3-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3Zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4Zm8 0c-.31 0-.66.02-1.02.05 1.33.96 2.02 2.16 2.02 3.95v2h7v-2c0-2.66-5.33-4-8-4Z"/></svg>
+            <h3>Encuentros de networking</h3>
+            <p>Espacios de vinculación entre jóvenes profesionales del sector.</p>
+          </article>
+          <article class="feature-card reveal-card">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3Zm0 13.3L5 12.47V16l7 3.82L19 16v-3.53l-7 3.83Z"/></svg>
+            <h3>Beneficios académicos y universitarios</h3>
+            <p>Acceso a jornadas, workshops, programas de posgrado y actividades con universidades.</p>
+          </article>
+          <article class="feature-card reveal-card">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3a4 4 0 0 1 4 4 4 4 0 0 1-2.07 3.5A7.01 7.01 0 0 1 19 17v2h-2v-2a5 5 0 0 0-10 0v2H5v-2a7.01 7.01 0 0 1 5.07-6.5A4 4 0 0 1 8 7a4 4 0 0 1 4-4Zm0 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm7 2h3v2h-3V7Zm-2-4h2v3h-2V3Zm0 7h2v3h-2v-3Z"/></svg>
+            <h3>Mentoring</h3>
+            <p>Instancias de orientación con profesionales de mayor trayectoria y referentes del sector.</p>
+          </article>
+          <article class="feature-card reveal-card">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4C8.89 2 8 2.89 8 4v2H4c-1.11 0-2 .89-2 2v10c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2Zm-10 0V4h4v2h-4Zm10 12H4V8h16v10Z"/></svg>
+            <h3>Workshops prácticos</h3>
+            <p>Talleres orientados a herramientas y casos aplicados.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+    <section class="section cta" aria-labelledby="sumate">
+      <div class="container cta__inner">
+        <div>
+          <h2 id="sumate">Sumate a la Sección Jóvenes</h2>
+          <p>Si sos joven profesional y te interesa participar de nuestras actividades, charlas y espacios de intercambio, te invitamos a acercarte a la Sección Jóvenes y formar parte de esta red.</p>
+        </div>
+        <a class="button" href="mailto:administracion@abogadosdebancos.org.ar?subject=Quiero%20participar%20de%20la%20Secci%C3%B3n%20J%C3%B3venes&body=Estimada%20Secretar%C3%ADa%20del%20Comit%C3%A9%3A%0A%0AMe%20contacto%20porque%20me%20interesa%20participar%20de%20la%20Secci%C3%B3n%20J%C3%B3venes%20del%20Comit%C3%A9%20de%20Abogados%20de%20Bancos.%0A%0AAgradecer%C3%ADa%20que%20me%20env%C3%ADen%20informaci%C3%B3n%20sobre%20las%20pr%C3%B3ximas%20actividades%2C%20requisitos%20para%20sumarme%20y%20beneficios%20disponibles%20para%20j%C3%B3venes%20profesionales.%0A%0AMis%20datos%20de%20contacto%20son%3A%0ANombre%20y%20apellido%3A%0ATel%C3%A9fono%3A%0AInstituci%C3%B3n%20%2F%20estudio%20%2F%20empresa%3A%0A%0AMuchas%20gracias.%0ASaludos%2C">Quiero participar</a>
+      </div>
+    </section>
+<!-- /wp:html -->
+
+</div>
+<!-- /wp:group -->

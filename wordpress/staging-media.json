@@ -1,0 +1,21 @@
+{
+  "base": "https://abogadosdebancos.org.ar/titan/",
+  "flyers": [
+    "https://abogadosdebancos.org.ar/titan/wp-content/uploads/2026/10/2026-03-31-ley-inocencia-fiscal.jpeg",
+    "https://abogadosdebancos.org.ar/titan/wp-content/uploads/2026/10/2026-04-16-modernizacion-laboral.jpeg",
+    "https://abogadosdebancos.org.ar/titan/wp-content/uploads/2026/10/2026-05-14-reestructuraciones-corporativas.jpeg",
+    "https://abogadosdebancos.org.ar/titan/wp-content/uploads/2026/10/2026-06-11-tasa-intereses-moratorios.jpeg",
+    "https://abogadosdebancos.org.ar/titan/wp-content/uploads/2026/10/2026-07-16-liderazgo-joven.jpeg",
+    "https://abogadosdebancos.org.ar/titan/wp-content/uploads/2026/10/2026-08-26-big-bang-regulatorio-cnv.jpeg",
+    "https://abogadosdebancos.org.ar/titan/wp-content/uploads/2026/10/2026-09-29-desafios-fal-mercado-capitales.jpeg",
+    "https://abogadosdebancos.org.ar/titan/wp-content/uploads/2026/10/2026-10-27-endeudamiento-relaciones-consumo.jpeg",
+    "https://abogadosdebancos.org.ar/titan/wp-content/uploads/2026/10/39-jornada-derecho-bancario-2026.jpeg"
+  ],
+  "young": [
+    "https://abogadosdebancos.org.ar/titan/wp-content/uploads/2026/10/seccion-joven-hero.jpg",
+    "https://abogadosdebancos.org.ar/titan/wp-content/uploads/2026/10/liderazgo-joven.jpeg",
+    "https://abogadosdebancos.org.ar/titan/wp-content/uploads/2026/10/kickoff-seccion-joven.png",
+    "https://abogadosdebancos.org.ar/titan/wp-content/uploads/2026/10/charla-uca-mercado-capitales.jpeg"
+  ],
+  "associationFormId": 2549
+}

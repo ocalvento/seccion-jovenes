@@ -1,0 +1,692 @@
+{
+  "source": "https://abogadosdebancos.org.ar/",
+  "capturedAt": "2026-10-21",
+  "technology": {
+    "wordpress": "7.1.3",
+    "theme": "Astra 4.14.1",
+    "blocks": "Spectra 2.20.5",
+    "elementorDetected": "3.35.4"
+  },
+  "logo": "assets/institutional/COMITE-ABOGADOS-AB-2026-horizontal.png",
+  "intro": "El Comité de Abogados de Bancos de la República Argentina es una asociación civil sin fines de lucro fundada en 1966 con el objetivo de crear un ámbito para el intercambio de opiniones referidas a problemas de derecho bancario, aunar criterios, promover y difundir estudios, realizar congresos y jornadas, patrocinar reformas legislativas, intervenir a pedido de parte como árbitro o mediador y realizar otros actos y actividades compatibles con esos propósitos.",
+  "banners": [
+    "assets/institutional/AB_slider_bg_02.jpg",
+    "assets/institutional/AB_slider_bg.jpg",
+    "assets/institutional/AB_slider_bg_03.jpg"
+  ],
+  "sponsors": [
+    {
+      "name": "Allende & Brea",
+      "image": "assets/sponsors/Logo-Allende-y-Brea.jpg",
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/10/Logo-Allende-y-Brea.jpg"
+    },
+    {
+      "name": "Banco Mariva",
+      "image": "assets/sponsors/Banco-Mariva.jpg",
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2026/03/Banco-Mariva.jpg"
+    },
+    {
+      "name": "BBVA",
+      "image": "assets/sponsors/Logo-BBVA.jpg",
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/10/Logo-BBVA.jpg"
+    },
+    {
+      "name": "Beccar Varela",
+      "image": "assets/sponsors/Logo-Beccar-Varela.jpg",
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/10/Logo-Beccar-Varela.jpg"
+    },
+    {
+      "name": "Bomchil",
+      "image": "assets/sponsors/Bomchil-logo.jpg",
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2026/04/Bomchil-logo.jpg"
+    },
+    {
+      "name": "Bruchou & Funes de Rioja",
+      "image": "assets/sponsors/Logo-Bruchou-Funes-de-Rioja.jpg",
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/10/Logo-Bruchou-Funes-de-Rioja.jpg"
+    },
+    {
+      "name": "Cerolini & Ferrari",
+      "image": "assets/sponsors/Cerolini-logo.jpg",
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2026/04/Cerolini-logo.jpg"
+    },
+    {
+      "name": "Citi",
+      "image": "assets/sponsors/Logo-Citi.jpg",
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/10/Logo-Citi.jpg"
+    },
+    {
+      "name": "Banco Galicia",
+      "image": "assets/sponsors/Banco-Galicia_logo_n_sq.jpg",
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/10/Banco-Galicia_logo_n_sq.jpg"
+    },
+    {
+      "name": "ICBC",
+      "image": "assets/sponsors/Banco-ICBC_logo_sq.jpg",
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/10/Banco-ICBC_logo_sq.jpg"
+    },
+    {
+      "name": "Banco Macro",
+      "image": "assets/sponsors/Banco-Macro_logo_2_sq.jpg",
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/10/Banco-Macro_logo_2_sq.jpg"
+    },
+    {
+      "name": "Marval O’Farrell Mairal",
+      "image": "assets/sponsors/Logo-Marval-2024.jpg",
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2024/03/Logo-Marval-2024.jpg"
+    },
+    {
+      "name": "MHR",
+      "image": "assets/sponsors/MHR.jpg",
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2026/03/MHR.jpg"
+    },
+    {
+      "name": "Nicholson y Cano",
+      "image": "assets/sponsors/Nicholson-y-Cano-logo.jpg",
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2026/04/Nicholson-y-Cano-logo.jpg"
+    },
+    {
+      "name": "Noetinger & Armando",
+      "image": "assets/sponsors/Noetinger-Armando.jpg",
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2026/03/Noetinger-Armando.jpg"
+    },
+    {
+      "name": "PAGBAM",
+      "image": "assets/sponsors/Logo-PAGBAM.jpg",
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/10/Logo-PAGBAM.jpg"
+    },
+    {
+      "name": "Ravera Neme",
+      "image": "assets/sponsors/Logo-Ravera-Neme.jpg",
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/11/Logo-Ravera-Neme.jpg"
+    },
+    {
+      "name": "Roca & Sarrabayrouse",
+      "image": "assets/sponsors/Roca-Sarrabayrouse.jpg",
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2026/03/Roca-Sarrabayrouse.jpg"
+    },
+    {
+      "name": "Santander",
+      "image": "assets/sponsors/Banco-Santander_logo_sq.jpg",
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/10/Banco-Santander_logo_sq.jpg"
+    },
+    {
+      "name": "TCA",
+      "image": "assets/sponsors/Logo-TCA.jpg",
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/10/Logo-TCA.jpg"
+    },
+    {
+      "name": "TRSM",
+      "image": "assets/sponsors/TRSM-logo.jpg",
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2026/04/TRSM-logo.jpg"
+    }
+  ],
+  "board": [
+    {
+      "role": "Presidente",
+      "members": [
+        {
+          "name": "Eduardo Gonzalez Correas",
+          "url": "https://www.linkedin.com/in/eduardo-gonz%C3%A1lez-correas-5b3b2551/"
+        }
+      ]
+    },
+    {
+      "role": "Vicepresidente",
+      "members": [
+        {
+          "name": "Mariana Alvarez Gaiani",
+          "url": "https://www.linkedin.com/in/mariana-alvarez-gaiani-480987214/"
+        }
+      ]
+    },
+    {
+      "role": "Secretario",
+      "members": [
+        {
+          "name": "Francisco Abeal",
+          "url": "https://www.linkedin.com/in/franciscoabeal/"
+        }
+      ]
+    },
+    {
+      "role": "Prosecretario",
+      "members": [
+        {
+          "name": "Marcelo Casanovas",
+          "url": "https://www.linkedin.com/in/marcelo-casanovas-b3126714/"
+        }
+      ]
+    },
+    {
+      "role": "Tesorero",
+      "members": [
+        {
+          "name": "Guillermo San Martín",
+          "url": "https://www.linkedin.com/in/gpsanmartin/"
+        }
+      ]
+    },
+    {
+      "role": "Protesorero",
+      "members": [
+        {
+          "name": "Juan Manuel Sarrabayrouse",
+          "url": "https://www.linkedin.com/in/juan-manuel-sarrabayrouse-3aa7481a/"
+        }
+      ]
+    },
+    {
+      "role": "Vocales Titulares",
+      "members": [
+        {
+          "name": "Diego Serrano Redonnet",
+          "url": "https://www.linkedin.com/in/diego-serrano-redonnet-510a971a/"
+        },
+        {
+          "name": "Julieta De Ruggiero",
+          "url": "https://www.linkedin.com/in/julieta-de-ruggiero-3a27735/"
+        },
+        {
+          "name": "Jaime Uranga",
+          "url": "https://www.linkedin.com/in/jaime-uranga-b9711b14/"
+        }
+      ]
+    },
+    {
+      "role": "Vocales Suplentes",
+      "members": [
+        {
+          "name": "Victoria Tuculet",
+          "url": "https://www.linkedin.com/in/victoriatuculet/"
+        },
+        {
+          "name": "Facundo Castillo",
+          "url": "https://www.linkedin.com/in/facundo-castillo-videla-586b4a4/"
+        },
+        {
+          "name": "Tomás Koch",
+          "url": "https://www.linkedin.com/in/tomaseduardokoch/"
+        },
+        {
+          "name": "Eduardo Ramos",
+          "url": "https://www.linkedin.com/in/eduardo-ramos-341a4640/"
+        },
+        {
+          "name": "Agustín Cerolini",
+          "url": "https://www.linkedin.com/in/agustin-cerolini-5985897/"
+        },
+        {
+          "name": "Martín Pouyssegur",
+          "url": "https://www.linkedin.com/in/martin-pouyss%C3%A9gur-71b50a43/"
+        },
+        {
+          "name": "Esteban Tresserras",
+          "url": "https://www.linkedin.com/in/esteban-tresserras-18b5836a/"
+        },
+        {
+          "name": "Enrique Cullen",
+          "url": "https://www.linkedin.com/company/comit%C3%A9-de-abogados-de-bancos-de-la-rep%C3%BAblica-argentina/"
+        },
+        {
+          "name": "Martín Vazquez Acuña",
+          "url": "https://www.linkedin.com/in/mart%C3%ADn-gonzalo-vazquez-acu%C3%B1a-84819830/"
+        }
+      ]
+    },
+    {
+      "role": "Comisión Titular Revisora de Cuentas",
+      "members": [
+        {
+          "name": "Daniela Zullo",
+          "url": "https://www.linkedin.com/in/daniela-fabiana-zullo-b44187118/"
+        },
+        {
+          "name": "Analía Battaglia",
+          "url": "https://www.linkedin.com/in/anal%C3%ADa-r-battaglia-1120a24b/"
+        },
+        {
+          "name": "Carlos Melhem",
+          "url": "https://www.linkedin.com/in/carlos-mar%C3%ADa-melhem-5a74b57b/"
+        }
+      ]
+    },
+    {
+      "role": "Comisión suplente Revisora de Cuentas",
+      "members": [
+        {
+          "name": "Felipe Videla",
+          "url": "https://www.linkedin.com/in/felipevidela/"
+        },
+        {
+          "name": "Dana König",
+          "url": "https://www.linkedin.com/in/dana-k%C3%B6nig-266954180/"
+        },
+        {
+          "name": "Sergio Gabai",
+          "url": "https://www.linkedin.com/in/sergio-gabriel-gabai-4a31132/"
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": "Acta Fundacional",
+      "url": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/11/Comite-de-Abogados-de-Bancos-Acta-Fundacional.pdf"
+    },
+    {
+      "title": "Socios Fundadores y Socios Honorarios",
+      "url": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/11/Comite-de-Abogados-de-Bancos-Socios-Fundadores-y-Socios-Honorarios.pdf"
+    },
+    {
+      "title": "Comisiones Directivas anteriores",
+      "url": "https://abogadosdebancos.org.ar/wp-content/uploads/2026/03/COMISIONES-DIRECTIVAS-HISTORICAS.pdf"
+    },
+    {
+      "title": "Nómina de Presidentes",
+      "url": "https://abogadosdebancos.org.ar/wp-content/uploads/2026/03/NOMINA-DE-PRESIDENTES.pdf"
+    },
+    {
+      "title": "Carta del Presidente en Ocasión de los 50 años del Comité",
+      "url": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/11/Comite-de-Abogados-de-Bancos-En-ocasion-de-los-50-anos-del-Comite.pdf"
+    }
+  ],
+  "events": [
+    {
+      "title": "Ley de Inocencia Fiscal: Claves para el Sector Financiero",
+      "date": "2026-03-31",
+      "dateLabel": "31 de marzo de 2026",
+      "time": "18:00",
+      "venue": "TCA Tanoira Cassagne",
+      "address": "Juana Manso 205, piso 8, CABA",
+      "format": "Híbrido",
+      "category": "Reunión plenaria",
+      "url": "assets/events-2026/2026-03-31-ley-inocencia-fiscal.jpeg",
+      "source": "user-provided-flyer",
+      "sourceFile": "1773929854143.jpeg",
+      "image": "assets/events-2026/2026-03-31-ley-inocencia-fiscal.jpeg",
+      "imageWidth": 1280,
+      "imageHeight": 1140,
+      "yearConfirmedBy": "El usuario indicó que las actividades corresponden a 2026"
+    },
+    {
+      "title": "La Ley de Modernización Laboral a un mes de su publicación. Interpretación y pautas para la gestión.",
+      "date": "2026-04-16",
+      "dateLabel": "16 de abril de 2026",
+      "time": "18:00",
+      "venue": "Pérez Alati, Grondona, Benites & Arntsen",
+      "address": "Suipacha 1111, piso 2, CABA",
+      "format": "Híbrido",
+      "category": "Reunión plenaria",
+      "url": "assets/events-2026/2026-04-16-modernizacion-laboral.jpeg",
+      "source": "user-provided-flyer",
+      "sourceFile": "1775590106409.jpeg",
+      "image": "assets/events-2026/2026-04-16-modernizacion-laboral.jpeg",
+      "imageWidth": 1280,
+      "imageHeight": 1140,
+      "yearConfirmedBy": "El usuario indicó que las actividades corresponden a 2026"
+    },
+    {
+      "title": "Reestructuraciones corporativas hoy: actualidad y desafíos",
+      "date": "2026-05-14",
+      "dateLabel": "14 de mayo de 2026",
+      "time": "18:00",
+      "venue": "Bomchil",
+      "address": "Av. Corrientes 420, piso 8, CABA",
+      "format": "Híbrido",
+      "category": "Reunión plenaria",
+      "url": "assets/events-2026/2026-05-14-reestructuraciones-corporativas.jpeg",
+      "source": "user-provided-flyer",
+      "sourceFile": "1778009347916.jpeg",
+      "image": "assets/events-2026/2026-05-14-reestructuraciones-corporativas.jpeg",
+      "imageWidth": 1280,
+      "imageHeight": 1140,
+      "yearConfirmedBy": "El usuario indicó que las actividades corresponden a 2026"
+    },
+    {
+      "title": "La Tasa de Intereses Moratorios (TIM): características e impacto en el sistema jurídico argentino",
+      "date": "2026-06-11",
+      "dateLabel": "11 de junio de 2026",
+      "time": "18:00",
+      "venue": "Banco Central de la República Argentina",
+      "address": "Reconquista 266, CABA",
+      "format": "Híbrido",
+      "category": "Reunión plenaria",
+      "url": "assets/events-2026/2026-06-11-tasa-intereses-moratorios.jpeg",
+      "source": "user-provided-flyer",
+      "sourceFile": "1780603990576.jpeg",
+      "image": "assets/events-2026/2026-06-11-tasa-intereses-moratorios.jpeg",
+      "imageWidth": 1280,
+      "imageHeight": 1140,
+      "yearConfirmedBy": "El usuario indicó que las actividades corresponden a 2026"
+    },
+    {
+      "title": "Liderazgo joven en el mercado financiero",
+      "date": "2026-07-16",
+      "dateLabel": "16 de julio de 2026",
+      "time": "18:30",
+      "venue": "Torre Banco Galicia",
+      "address": "Tte. Perón 430, Auditorio (subsuelo), CABA",
+      "format": "Híbrido",
+      "category": "Sección Jóvenes",
+      "url": "assets/events-2026/2026-07-16-liderazgo-joven.jpeg",
+      "source": "user-provided-flyer",
+      "sourceFile": "1782749341226.jpeg",
+      "image": "assets/events-2026/2026-07-16-liderazgo-joven.jpeg",
+      "imageWidth": 1280,
+      "imageHeight": 1140,
+      "yearConfirmedBy": "El usuario indicó que las actividades corresponden a 2026"
+    },
+    {
+      "title": "Big Bang Regulatorio de la CNV",
+      "date": "2026-08-26",
+      "dateLabel": "26 de agosto de 2026",
+      "time": "18:00",
+      "venue": "Marval O’Farrell Mairal",
+      "address": "Av. Leandro N. Alem 882, piso 1, CABA",
+      "format": "Híbrido",
+      "category": "Reunión plenaria",
+      "url": "assets/events-2026/2026-08-26-big-bang-regulatorio-cnv.jpeg",
+      "source": "user-provided-flyer",
+      "sourceFile": "1787253960968.jpeg",
+      "image": "assets/events-2026/2026-08-26-big-bang-regulatorio-cnv.jpeg",
+      "imageWidth": 1280,
+      "imageHeight": 1140,
+      "yearConfirmedBy": "El usuario indicó que las actividades corresponden a 2026"
+    },
+    {
+      "title": "Desafíos del FAL para el Mercado de Capitales",
+      "date": "2026-09-29",
+      "dateLabel": "29 de septiembre de 2026",
+      "time": "18:00",
+      "venue": "Beccar Varela",
+      "address": "Tucumán 1, piso 3, CABA",
+      "format": "Híbrido",
+      "category": "Reunión plenaria",
+      "url": "assets/events-2026/2026-09-29-desafios-fal-mercado-capitales.jpeg",
+      "source": "user-provided-flyer",
+      "sourceFile": "1790005063510.jpeg",
+      "image": "assets/events-2026/2026-09-29-desafios-fal-mercado-capitales.jpeg",
+      "imageWidth": 1280,
+      "imageHeight": 1140,
+      "yearConfirmedBy": "El usuario indicó que las actividades corresponden a 2026"
+    },
+    {
+      "title": "Endeudamiento y relaciones de consumo: contexto normativo y desafíos actuales",
+      "date": "2026-10-27",
+      "dateLabel": "27 de octubre de 2026",
+      "time": "18:00",
+      "venue": "Tavarone Rovelli Salim Miani",
+      "address": "Tte. Gral. J. D. Perón 537, piso 1, CABA",
+      "format": "Híbrido",
+      "category": "Reunión plenaria",
+      "url": "assets/events-2026/2026-10-27-endeudamiento-relaciones-consumo.jpeg",
+      "source": "user-provided-flyer",
+      "sourceFile": "1792607983492.jpeg",
+      "image": "assets/events-2026/2026-10-27-endeudamiento-relaciones-consumo.jpeg",
+      "imageWidth": 1280,
+      "imageHeight": 1140,
+      "yearConfirmedBy": "El usuario indicó que las actividades corresponden a 2026"
+    },
+    {
+      "title": "39.ª Jornada de Derecho Bancario",
+      "date": "2026-11-13",
+      "dateLabel": "13 de noviembre de 2026",
+      "venue": "Sofitel La Reserva Cardales",
+      "url": "#jornada-destacada",
+      "source": "user-provided-flyer",
+      "sourceFile": "WhatsApp Image 2026-09-11 at 11.42.30.jpeg",
+      "yearInferredFrom": "Contexto 2026 y mención de los 60 años en el flyer; no hay año impreso junto a la fecha",
+      "image": "assets/institutional/39-jornada-derecho-bancario-2026.jpeg",
+      "imageWidth": 1221,
+      "imageHeight": 1289
+    }
+  ],
+  "news": [
+    {
+      "title": "Endeudamiento y relaciones de consumo: contexto normativo y desafíos actuales",
+      "date": "2026-10-27",
+      "dateLabel": "27 de octubre de 2026",
+      "time": "18:00",
+      "venue": "Tavarone Rovelli Salim Miani",
+      "address": "Tte. Gral. J. D. Perón 537, piso 1, CABA",
+      "format": "Híbrido",
+      "category": "Reunión plenaria",
+      "url": "assets/events-2026/2026-10-27-endeudamiento-relaciones-consumo.jpeg",
+      "source": "user-provided-flyer",
+      "sourceFile": "1792607983492.jpeg",
+      "image": "assets/events-2026/2026-10-27-endeudamiento-relaciones-consumo.jpeg",
+      "imageWidth": 1280,
+      "imageHeight": 1140,
+      "yearConfirmedBy": "El usuario indicó que las actividades corresponden a 2026"
+    },
+    {
+      "title": "39.ª Jornada de Derecho Bancario",
+      "date": "2026-11-13",
+      "dateLabel": "13 de noviembre de 2026",
+      "venue": "Sofitel La Reserva Cardales",
+      "url": "#jornada-destacada",
+      "source": "user-provided-flyer",
+      "sourceFile": "WhatsApp Image 2026-09-11 at 11.42.30.jpeg",
+      "yearInferredFrom": "Contexto 2026 y mención de los 60 años en el flyer; no hay año impreso junto a la fecha",
+      "image": "assets/institutional/39-jornada-derecho-bancario-2026.jpeg",
+      "imageWidth": 1221,
+      "imageHeight": 1289
+    }
+  ],
+  "assets": [
+    {
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2026/04/COMITE-ABOGADOS-AB-2026-horizontal.png",
+      "file": "assets/institutional/COMITE-ABOGADOS-AB-2026-horizontal.png",
+      "bytes": 36535,
+      "sha256": "0c9f4a75aa1c7cd3c9f83ff172d2f16768584fe58bfc669122bc933aff935ee0"
+    },
+    {
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/10/AB_slider_bg_02.jpg",
+      "file": "assets/institutional/AB_slider_bg_02.jpg",
+      "bytes": 161674,
+      "sha256": "397f80e5813c0234e540b9e074067e07b3dceb9ed58c5d7a080cb7a2f2e2f08f"
+    },
+    {
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/10/AB_slider_bg.jpg",
+      "file": "assets/institutional/AB_slider_bg.jpg",
+      "bytes": 236772,
+      "sha256": "63c23f812ff160bc9217596fa2eebe708e3e8e0c54e2e0a444f6c4d5c2e0e89e"
+    },
+    {
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/10/AB_slider_bg_03.jpg",
+      "file": "assets/institutional/AB_slider_bg_03.jpg",
+      "bytes": 202224,
+      "sha256": "de6fbcb8152a5c05a416750e69bb38feb916d0a802bc3030015f8145aa6ef23d"
+    },
+    {
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/10/Logo-Allende-y-Brea.jpg",
+      "file": "assets/sponsors/Logo-Allende-y-Brea.jpg",
+      "bytes": 25480,
+      "sha256": "6fa7678088a35b6d7f3850091e4186724033703d3ca48790fe908c40e46757c7"
+    },
+    {
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2026/03/Banco-Mariva.jpg",
+      "file": "assets/sponsors/Banco-Mariva.jpg",
+      "bytes": 12660,
+      "sha256": "4d5950ba9bbffb2c1c1712464c92d9fd282e704ba9585b05ecb8211f09f1cab4"
+    },
+    {
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/10/Logo-BBVA.jpg",
+      "file": "assets/sponsors/Logo-BBVA.jpg",
+      "bytes": 22315,
+      "sha256": "b5d561f1217243843587bb7c6da2ed6903c4f5aa7c54ca28da6c9218b32eb510"
+    },
+    {
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/10/Logo-Beccar-Varela.jpg",
+      "file": "assets/sponsors/Logo-Beccar-Varela.jpg",
+      "bytes": 41848,
+      "sha256": "11522fd59e246cfe7daa413f5f9d06fc91550d061312d427405aff1062f936e3"
+    },
+    {
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2026/04/Bomchil-logo.jpg",
+      "file": "assets/sponsors/Bomchil-logo.jpg",
+      "bytes": 10534,
+      "sha256": "a720e171a9c73e2b53acc0c4dd1e45d5950d96f12ffc105bbd9d57e2e5291607"
+    },
+    {
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/10/Logo-Bruchou-Funes-de-Rioja.jpg",
+      "file": "assets/sponsors/Logo-Bruchou-Funes-de-Rioja.jpg",
+      "bytes": 19400,
+      "sha256": "0e1a60c9c002f3850cbb6037edd8b47f9b2b574ebcb61e33c35f1a9aa393f2f9"
+    },
+    {
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2026/04/Cerolini-logo.jpg",
+      "file": "assets/sponsors/Cerolini-logo.jpg",
+      "bytes": 13754,
+      "sha256": "4125f82e81175a1e229beeaf9021e01c0d7269f03d4ccee69c280b1f20ce9608"
+    },
+    {
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/10/Logo-Citi.jpg",
+      "file": "assets/sponsors/Logo-Citi.jpg",
+      "bytes": 22452,
+      "sha256": "75bdf4beb3335a274a02a21ef5c02127a1bc070b7456834f67b37d1d9aaa45f6"
+    },
+    {
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/10/Banco-Galicia_logo_n_sq.jpg",
+      "file": "assets/sponsors/Banco-Galicia_logo_n_sq.jpg",
+      "bytes": 16677,
+      "sha256": "0fc03c22b937d733b26e441b6ce2b2759b03151abb1bd2e11f313642a46369ce"
+    },
+    {
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/10/Banco-ICBC_logo_sq.jpg",
+      "file": "assets/sponsors/Banco-ICBC_logo_sq.jpg",
+      "bytes": 14924,
+      "sha256": "0f413ba5ab2b684e80518bd4e76566e48cd04cf91a2eab7c6e1bf73acec6515e"
+    },
+    {
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/10/Banco-Macro_logo_2_sq.jpg",
+      "file": "assets/sponsors/Banco-Macro_logo_2_sq.jpg",
+      "bytes": 18379,
+      "sha256": "2ce61c265b64a764c4e1bd15a2faea166483204f1688913360875ffd9c7541b3"
+    },
+    {
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2024/03/Logo-Marval-2024.jpg",
+      "file": "assets/sponsors/Logo-Marval-2024.jpg",
+      "bytes": 12927,
+      "sha256": "9f4624f8384e365d971b8a40b44ad8014915958dbe5cd73ad61db4bcf3089411"
+    },
+    {
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2026/03/MHR.jpg",
+      "file": "assets/sponsors/MHR.jpg",
+      "bytes": 11139,
+      "sha256": "726eda85f67dc88540423c1ea3ea2886dc05e58bbd7d4f7d439b614d586ec0cd"
+    },
+    {
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2026/04/Nicholson-y-Cano-logo.jpg",
+      "file": "assets/sponsors/Nicholson-y-Cano-logo.jpg",
+      "bytes": 12439,
+      "sha256": "3fc956c0473eed966cb2de692d054b0c65731ade57320a412f4d15e6d918c218"
+    },
+    {
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2026/03/Noetinger-Armando.jpg",
+      "file": "assets/sponsors/Noetinger-Armando.jpg",
+      "bytes": 13725,
+      "sha256": "b97b77da4fa7510e7d79e772deb403acd106568564951abd7d48925dd9bc29f0"
+    },
+    {
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/10/Logo-PAGBAM.jpg",
+      "file": "assets/sponsors/Logo-PAGBAM.jpg",
+      "bytes": 25224,
+      "sha256": "4373da3f866ef479395e8fcd2d4037cb54451beed5600d18b562ed118f4c979f"
+    },
+    {
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/11/Logo-Ravera-Neme.jpg",
+      "file": "assets/sponsors/Logo-Ravera-Neme.jpg",
+      "bytes": 18372,
+      "sha256": "242d4bbaab53c88a46b2454b0e0ea579fbd7be4769f431b2ca3aa69fdec1fb77"
+    },
+    {
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2026/03/Roca-Sarrabayrouse.jpg",
+      "file": "assets/sponsors/Roca-Sarrabayrouse.jpg",
+      "bytes": 11982,
+      "sha256": "e4bce01e6ddeebbbdf9c7b4b796cef64dc137aaf8ed2668464dcc87bfbb9c915"
+    },
+    {
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/10/Banco-Santander_logo_sq.jpg",
+      "file": "assets/sponsors/Banco-Santander_logo_sq.jpg",
+      "bytes": 14725,
+      "sha256": "a1ea073ee446680938f5905f7f51409795c8ec2fa9f4edc4513c52b9c1ab14fa"
+    },
+    {
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2023/10/Logo-TCA.jpg",
+      "file": "assets/sponsors/Logo-TCA.jpg",
+      "bytes": 23054,
+      "sha256": "a3786a117b4f47c29deeb96eff33920df23f860710192acd47dc95a5054f704f"
+    },
+    {
+      "source": "https://abogadosdebancos.org.ar/wp-content/uploads/2026/04/TRSM-logo.jpg",
+      "file": "assets/sponsors/TRSM-logo.jpg",
+      "bytes": 11746,
+      "sha256": "be30ee7c1c40a2f943e158f29675fb661c95d6e43e19102cefe6cb752ffe2296"
+    },
+    {
+      "source": "user-provided:1773929854143.jpeg",
+      "file": "assets/events-2026/2026-03-31-ley-inocencia-fiscal.jpeg",
+      "bytes": 159103,
+      "sha256": "c349f0af6cf9a56a97b495e78fb3a137fc092b903fd06dff35c561be1006956a"
+    },
+    {
+      "source": "user-provided:1775590106409.jpeg",
+      "file": "assets/events-2026/2026-04-16-modernizacion-laboral.jpeg",
+      "bytes": 153799,
+      "sha256": "3fea459b9cae201ed7a454cfb10f5b7be5a1ca999dc033781a3f88f7169ba492"
+    },
+    {
+      "source": "user-provided:1778009347916.jpeg",
+      "file": "assets/events-2026/2026-05-14-reestructuraciones-corporativas.jpeg",
+      "bytes": 144703,
+      "sha256": "d901f2a0ffe834b3e24e4b6f28093bfcd9ae32e1c15c7964011896089f6e8b1a"
+    },
+    {
+      "source": "user-provided:1780603990576.jpeg",
+      "file": "assets/events-2026/2026-06-11-tasa-intereses-moratorios.jpeg",
+      "bytes": 142667,
+      "sha256": "a54678738532ec2216896441d4343cad22532c24625b61edebadc504804565e0"
+    },
+    {
+      "source": "user-provided:1782749341226.jpeg",
+      "file": "assets/events-2026/2026-07-16-liderazgo-joven.jpeg",
+      "bytes": 138076,
+      "sha256": "9af06e0012c3ad859ee37cf45609b7782149705df79009e7f1cdf3fbebb0f86d"
+    },
+    {
+      "source": "user-provided:1787253960968.jpeg",
+      "file": "assets/events-2026/2026-08-26-big-bang-regulatorio-cnv.jpeg",
+      "bytes": 128179,
+      "sha256": "8bea4ba1d074cfcf47a795c9b2bf4470a7be797b47baed51a6943dc4d54ae822"
+    },
+    {
+      "source": "user-provided:1790005063510.jpeg",
+      "file": "assets/events-2026/2026-09-29-desafios-fal-mercado-capitales.jpeg",
+      "bytes": 149823,
+      "sha256": "75a859f9591a6090863d9bf53a30688b67b4d98b57256e8371a1a0b984a2220d"
+    },
+    {
+      "source": "user-provided:1792607983492.jpeg",
+      "file": "assets/events-2026/2026-10-27-endeudamiento-relaciones-consumo.jpeg",
+      "bytes": 151256,
+      "sha256": "10712f7aafd303e691acaefe7f9ef0f858f0cee1dffa4ef957d4eff1ca7d5b14"
+    }
+  ],
+  "featuredEvent": {
+    "title": "39.ª Jornada de Derecho Bancario",
+    "date": "2026-11-13",
+    "dateLabel": "13 de noviembre de 2026",
+    "venue": "Sofitel La Reserva Cardales",
+    "url": "#jornada-destacada",
+    "source": "user-provided-flyer",
+    "sourceFile": "WhatsApp Image 2026-09-11 at 11.42.30.jpeg",
+    "yearInferredFrom": "Contexto 2026 y mención de los 60 años en el flyer; no hay año impreso junto a la fecha",
+    "image": "assets/institutional/39-jornada-derecho-bancario-2026.jpeg",
+    "imageWidth": 1221,
+    "imageHeight": 1289
+  },
+  "eventsUpdatedAt": "2026-10-22",
+  "editorialEventYear": 2026
+}

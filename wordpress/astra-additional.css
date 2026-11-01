@@ -1,0 +1,52 @@
+/*Make Header Sticky*/
+.site-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/*Adjust Content Padding*/
+.site-content {
+    padding-top: 80px;
+}
+
+/*Adjust Content Padding for Mobile*/
+@media (max-width: 800px) {
+    .site-content {
+        padding-top: 100px;
+    }
+	/*Stick the Off-Canvas Navigation Menu - Adjust Top Margin for your Layout*/
+		.main-navigation {
+				position: fixed;
+				margin-top: 0px;
+	}
+}
+
+/*Adjust Content Padding for Mobile*/
+@media (max-width: 650px) {
+    .site-content {
+        padding-top: 150px;
+    }
+	/*Stick the Off-Canvas Navigation Menu - Adjust Top Margin for your Layout*/
+		.main-navigation {
+				position: fixed;
+				margin-top: 60px;
+	}
+}
+
+.ast-above-header-bar .ast-builder-grid-row-container-inner {
+     background: rgba(255,255,255,1);
+ }
+ .main-header-bar {
+     background: rgba(255,255,255,1);
+ }
+ .ast-below-header-bar .ast-builder-grid-row-container-inner {
+     background: rgba(40,50,50,0.5);
+ }
+
+/* Comité 2026: el CTA de Astra ya aparece en escritorio; conservar Asociate en el menú móvil. */
+.ast-desktop #ast-hf-menu-1 > li:has(> a[href$="#asociate"]) { display: none; }
+
+/* Respetar la barra de administración en la vista de pruebas. */
+.admin-bar .site-header { top:32px; }
+@media(max-width:782px) { .admin-bar .site-header { top:46px; } }
