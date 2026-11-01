@@ -8,6 +8,11 @@
 credentials*.json
 service-account*.json
 
+# Backups y volcados de base de datos
+*.zip
+*.sql
+*.gz
+
 # Archivos del sistema y dependencias
 .DS_Store
 node_modules/
